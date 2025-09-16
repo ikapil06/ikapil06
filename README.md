@@ -47,10 +47,10 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### Cloud & Databases
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### Tools & Technologies
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -85,10 +85,10 @@
 ## 🌐 Connect With Me
 
 <div align="center">
-  <a href="https://linkedin.com/in/kapil-kumar0601">
+  <a href="https://www.linkedin.com/in/kapil-kumar0601/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:ikapilkumar06@gmail.com">
+  <a href="mailto:ikapilkumar06@gmail.com?cc=ikapilkumar06@gmail.com&subject=Hello%20Kapil!&body=Hi%20Kapil,%0D%0A%0D%0AI%20came%20across%20your%20GitHub%20profile%20and%20would%20like%20to%20connect.%0D%0A%0D%0ABest%20regards,">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
   <a href="https://twitter.com/ikapil06">
@@ -96,6 +96,15 @@
   </a>
   <a href="https://kaggle.com/ikapil06">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
+  </a>
+</div>
+
+## ☕ Support My Work
+
+<div align="center">
+  <p>If you find my projects helpful and would like to support my work, consider buying me a coffee!</p>
+  <a href="https://www.buymeacoffee.com/ikapil06" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60px" width="217px">
   </a>
 </div>
 
