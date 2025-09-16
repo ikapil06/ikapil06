@@ -91,8 +91,8 @@
   <a href="mailto:ikapilkumar06@gmail.com?cc=ikapilkumar06@gmail.com&subject=Hello%20Kapil!&body=Hi%20Kapil,%0D%0A%0D%0AI%20came%20across%20your%20GitHub%20profile%20and%20would%20like%20to%20connect.%0D%0A%0D%0ABest%20regards,">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://twitter.com/ikapil06">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  <a href="https://x.com/data_kapil?t=wGASzfqTo5NMj_pF0NPTQQ&s=09">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/>
   </a>
   <a href="https://kaggle.com/ikapil06">
     <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle"/>
