@@ -1,38 +1,38 @@
 name: Generate Snake
 
 on:
-  # run automatically every 12 hours
-  schedule:
-    - cron: "0 */12 * * *" 
-  
-  # allows to manually run the job at any time
   workflow_dispatch:
-  
-  # run on every push on the main branch
-  push:
-    branches:
-    - main
+  schedule:
+    - cron: "0 0 * * *" # runs daily at 00:00 UTC
+
+concurrency:
+  group: generate-snake
+  cancel-in-progress: true
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions:
-      contents: write
+    name: Generate snake SVGs
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
     steps:
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake animation files (light and dark)
+        uses: Platane/snk@v3
         with:
-          github_user_name: ikapil06
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v4.0.0
-        with:
-          target_branch: output
-          build_dir: dist
+            dist/snake.svg?palette=github-dark
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-light.svg?palette=github-light
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy dist/ to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: output
+          force_orphan: true
+          commit_message: "chore: update snake animations"
